@@ -20,7 +20,7 @@ Healthcare organizations generate vast amounts of data, but extracting actionabl
 
 ## 📊 Dataset
 
-**File:** `Healthcare Analysis Dataset.xlsx - Data.csv`  
+**File:** `Healthcare Analysis Dataset.xlsx`  
 **Records:** ~55,500  
 **Features:** 17
 
@@ -216,7 +216,8 @@ cd Healthcare-Analytics-Patient-Length-of-Stay
     pip install pandas numpy matplotlib seaborn scikit-learn xgboost
     ```
 - Open `Healthcare_Analytics_EDA_&_Predictive_Modelling.ipynb` in Jupyter Notebook or VS Code with the Jupyter extension.
-- Run all cells sequentially. Ensure `Healthcare Analysis Dataset.xlsx - Data.csv` is in the same directory.
+- Run all cells sequentially. Ensure `Healthcare Analysis Dataset.xlsx` is in the same directory.
+- **For Google Colab users:** When running the notebook in Google Colab, you will be prompted to upload the `Healthcare Analysis Dataset.xlsx` file using the `files.upload()` function in the **Data Loading** section. 
 
 ---
 
